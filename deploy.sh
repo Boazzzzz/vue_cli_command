@@ -14,7 +14,7 @@ cd dist
 cp index.html 404.html
 
 # deploy編譯後的檔案名為亂數，由於檔名不重複會無限增多檔案，因此在進入資料夾後先初始化git
-# git init // 需要初始化時執行就好
+git init 
 git add -A
 git commit -m 'Deploy test'
 
